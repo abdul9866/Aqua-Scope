@@ -1,0 +1,69 @@
+{
+  "name": "Aqua Scope — Underwater Intelligence & Marine Analytics",
+  "short_name": "AquaScope",
+  "description": "AI-powered underwater vision system with optical enhancement, debris localization, pixel segmentation, and marine risk analytics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d1b1e",
+  "theme_color": "#237f72",
+  "categories": [
+    "education",
+    "utilities",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Analyze Underwater Image",
+      "short_name": "Analyze",
+      "description": "Upload an underwater capture for multi-stage AI analysis",
+      "url": "/#analyze",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Marine Risk Index",
+      "short_name": "Risk Index",
+      "description": "Inspect Pollution Severity Index & Object Census",
+      "url": "/#analytics",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
+

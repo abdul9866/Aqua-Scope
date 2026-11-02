@@ -1,0 +1,14 @@
+
+import os
+
+SEG_MODEL_PATH = (
+    "/content/drive2/MyDrive/dataset/yolo_segmentation/"
+    "runs/trashcan_yolov8n_seg_22class-3/weights/best.pt"
+)
+
+if os.path.isfile(SEG_MODEL_PATH):
+    size_mb = os.path.getsize(SEG_MODEL_PATH) / (1024 * 1024)
+    print("Model found:", SEG_MODEL_PATH)
+    print(f"Model size: {size_mb:.2f} MB")
+else:
+    print("Model not found at this path.")
